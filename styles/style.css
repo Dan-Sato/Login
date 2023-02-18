@@ -31,12 +31,15 @@ main {
   width: 250px;
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+  transition: width 0.3s, height 0.3s;
+  transition-timing-function: ease;
 }
 #login > #img {
   display: block;
   background: #5f2c82 url(../img/image.jpg) no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: bottom center;
   height: 200px;
 }
 #login > #form {
