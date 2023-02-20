@@ -54,3 +54,52 @@ main {
 #form > p {
   font-size: 0.8em;
 }
+
+.field {
+  background-color: #5f2c82;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+div.field > label {
+  display: none;
+}
+
+form > input[type="submit"] {
+  display: block;
+  font-size: 1em;
+  width: 100%;
+  height: 40px;
+  color: white;
+  background-color: #49a09d;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+form > input[type="submit"]:hover {
+  background-color: #5f2c82;
+}
+form > a.btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  width: 100%;
+  height: 40px;
+  color: #255250;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding-top: 9px;
+  margin-top: 5px;
+  border: 1px solid #49a09d;
+}
+form > a.btn:hover {
+  color: white;
+  background-color: #5f2c82;
+}
+form > a.btn > span {
+  font-size: 0.8em;
+}
